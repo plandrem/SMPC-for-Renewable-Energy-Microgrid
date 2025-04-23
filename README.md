@@ -76,25 +76,15 @@ This project uses `uv` for package management:
 curl -sSf https://astral.sh/uv/install.sh | bash
 
 # Create virtual environment and install dependencies
-uv venv
-uv pip install cvxpy numpy pandas matplotlib
-
-# Activate the environment (Linux/Mac)
-source .venv/bin/activate
-
-# Or on Windows
-# .venv\Scripts\activate
+uv sync
 ```
 
 ## Usage
 
 Run the simulation:
 
-```python
-from smpc import run_simulation
-
-# Run the simulation and display results
-results_df = run_simulation()
+```bash
+uv run smpc.py
 ```
 
 ## Output
