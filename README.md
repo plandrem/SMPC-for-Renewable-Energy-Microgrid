@@ -1,5 +1,7 @@
 # Renewable Energy Microgrid with Stochastic Model Predictive Control
 
+![Simulation Results](result.png)
+
 ## Table of Contents
 - [Overview](#overview)
 - [SMPC Explained](#smpc-explained)
@@ -8,7 +10,7 @@
 - [Convexity](#convexity)
 - [Environment Setup](#environment-setup)
 - [Usage](#usage)
-- [Parameters](#parameters)
+- [Output](#output)
 
 ## Overview
 
@@ -94,3 +96,9 @@ from smpc import run_simulation
 # Run the simulation and display results
 results_df = run_simulation()
 ```
+
+## Output
+
+![Simulation Results](result.png)
+
+This image shows the simulation results of the SMPC controller over a 24-hour period. The top panel displays power sources (solar generation and battery discharge) and loads (datacenter and EV charging). The middle panel compares the actual demands versus power allocations for both the datacenter and EV charging. The bottom panel shows the battery state of charge throughout the day.
