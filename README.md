@@ -65,7 +65,7 @@ Being an LP, our model guarantees:
 - Efficient solution using standard solvers
 - Scalability to large problem instances
 
-I use `cvxpy` as a convex solver.
+I use [`cvxpy`](https://www.cvxpy.org/) as a convex solver.
 
 ## Environment Setup
 
