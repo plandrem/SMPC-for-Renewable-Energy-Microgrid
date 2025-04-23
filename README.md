@@ -1,4 +1,4 @@
-# Renewable Energy Microgrid with Stochastic Model Predictive Control
+# Stochastic Model Predictive Control (SMPC) for Renewable Energy Microgrid
 
 ![Simulation Results](result.png)
 
